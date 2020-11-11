@@ -39,7 +39,7 @@ app.use(helmet());
 app.use(express.json());
 app.use(
   cors({
-    'Access-Control-Allow-Origin': '*',
+    origin: '*',
   })
 );
 app.use(logger('dev'));
